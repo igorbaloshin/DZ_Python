@@ -18,6 +18,8 @@ for a in range(1000):
             break
     if a*b == mul and a+b == sum:
         break
+if a == 999:
+    print("Ввели неправильные значения")
         
         
         
