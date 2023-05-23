@@ -23,7 +23,7 @@ phrase_arr_clean = [i.replace('-', '') for i in phrase_arr]
 
 phrase_arr_clean_split = list(map(list,phrase_arr_clean))
 
-#print(phrase_arr_clean_split)
+print(phrase_arr_clean_split)
 
 flag = 1 # Индикатор для печати
 
@@ -52,7 +52,7 @@ for i in range(len(phrase_arr_clean_split)):
 
 
 for i in range(len(phrase_arr_count)-1):
-    if phrase_arr_count[i] != phrase_arr_count[i + 1]:
+    if phrase_arr_count[i] != phrase_arr_count[i + 1] or phrase_arr_count[i] == 0 :
         flag = 0
         
       
